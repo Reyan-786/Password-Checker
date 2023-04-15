@@ -8,5 +8,5 @@ def main(args):
             print(f"\n{password} was found {count} times...,you should probably change it before you get hacked ::: <===;;;===> :::\n")
         else :
             print(f"\n{password} was not found!!! everything is safe for now!!!\n")
-    print('done') 
-main(sys.argv[1:])
+    return 'done'
+sys.exit(main(sys.argv[1:]))
